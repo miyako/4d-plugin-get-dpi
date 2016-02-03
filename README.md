@@ -5,3 +5,9 @@ Remarks
 ---
 
 Requires Windows 8.1 or later, OS X 10.7 or later.
+
+##Platform
+
+| carbon | cocoa | win32 | win64 |
+|:------:|:-----:|:---------:|:---------:|
+|🆗|🆗|🆗|🆗|
