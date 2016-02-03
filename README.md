@@ -33,3 +33,5 @@ GET SCREEN DPI ($dpi_x;$dpi_y)
   //226.000015258789, 226.000015258789 (1152 x 7620)
   //192, 192 VMWARE FUSION, Windows 10 (2560 x 1600, custom zoom rate)
 ```
+
+You can also pass an optional screen number in $3.
