@@ -164,10 +164,11 @@ void GET_SCREEN_DPI(sLONG_PTR *pResult, PackagePtr pParams)
 	ctx.dpi_y = 0;
 	
 	HDC hDesktop = GetDC(NULL);
+
 	if(hDesktop)
 	{
-		//SetProcessDpiAwareness(PROCESS_PER_MONITOR_DPI_AWARE);
 		EnumDisplayMonitors(hDesktop, NULL, MonitorEnumProc, (LPARAM)&ctx);
+		ReleaseDC(NULL, hDesktop);
 	}
 	
 	dpi_x = ctx.dpi_x;
