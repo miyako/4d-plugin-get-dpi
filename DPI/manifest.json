@@ -1,0 +1,1 @@
+﻿{"name":"DPI","id":20000,"commands":[{"theme":"DPI","syntax":"GET SCREEN DPI(&8;&8;&L)"}]}
