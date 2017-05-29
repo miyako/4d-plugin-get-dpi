@@ -27,6 +27,8 @@ dpi_x|REAL|
 dpi_y|REAL|
 screen|LONGINT|screen number
 
+[GetDpiForMonitor](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280510(v=vs.85).aspx), [GetDeviceCaps](https://msdn.microsoft.com/en-us/library/windows/desktop/dd144877(v=vs.85).aspx) on Windows, ``NSScreen`` ``deviceDescription`` on macOS.
+
 Examples
 ---
 
