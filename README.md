@@ -25,7 +25,7 @@ Parameter|Type|Description
 ------------|------------|----
 dpi_x|REAL|
 dpi_y|REAL|
-screen|LONGINT|monitor number
+screen|LONGINT|screen number
 
 Examples
 ---
