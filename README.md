@@ -1,24 +1,31 @@
 # 4d-plugin-get-dpi
 Get screen DPI
 
-Remarks
----
-
-Requires Windows 8.1 or later, OS X 10.7 or later.
-
-##Platform
+### Platform
 
 | carbon | cocoa | win32 | win64 |
 |:------:|:-----:|:---------:|:---------:|
-|🆗|🆗|🆗|🆗|
+|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|
 
-Commands
----
+### Version
 
-```c
-// --- DPI
-GET_SCREEN_DPI
+<img src="https://cloud.githubusercontent.com/assets/1725068/18940649/21945000-8645-11e6-86ed-4a0f800e5a73.png" width="32" height="32" /> <img src="https://cloud.githubusercontent.com/assets/1725068/18940648/2192ddba-8645-11e6-864d-6d5692d55717.png" width="32" height="32" />
+
+**Remarks**: Requires Windows 8.1 or later, OS X 10.7 or later.
+
+Related proejct: https://github.com/miyako/4d-plugin-dpi-util
+
+## Syntax
+
 ```
+GET SCREEN DPI (dpi_x;dpi_y;screen)
+```
+
+Parameter|Type|Description
+------------|------------|----
+dpi_x|REAL|
+dpi_y|REAL|
+screen|LONGINT|monitor number
 
 Examples
 ---
@@ -34,4 +41,4 @@ GET SCREEN DPI ($dpi_x;$dpi_y)
   //192, 192 VMWARE FUSION, Windows 10 (2560 x 1600, custom zoom rate)
 ```
 
-You can also pass an optional screen number in $3.
+You can also pass an optional screen number in ``$3``.
